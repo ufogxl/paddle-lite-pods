@@ -17,7 +17,7 @@ paddle-lite-pods is available through [CocoaPods](https://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'paddle-lite-pods'
+pod 'paddle-lite-pods' ,:git => 'https://github.com/ufogxl/paddle-lite-pods'
 ```
 
 ## Author
