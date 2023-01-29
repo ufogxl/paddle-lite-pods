@@ -1,0 +1,22 @@
+{
+  "name": "paddle-lite-pods",
+  "version": "0.1.0",
+  "summary": "A short description of paddle-lite-pods.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ufogxl/paddle-lite-pods",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ufogxl": "ufogxl@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ufogxl/paddle-lite-pods.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "paddle-lite-pods/Classes/**/*"
+}
