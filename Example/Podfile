@@ -1,0 +1,6 @@
+use_frameworks!
+target 'paddle-lite-pods_Tests' do
+  pod 'paddle-lite-pods', :path => '../'
+  
+  
+end
