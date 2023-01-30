@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'paddle-lite-pods'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of paddle-lite-pods.'
 
 # This description is used to generate tags and improve search results.
@@ -30,13 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'paddle-lite-pods/Classes/**/*'
+  #s.source_files = 'paddle-lite-pods/Classes/**/*'
   
   # s.resource_bundles = {
   #   'paddle-lite-pods' => ['paddle-lite-pods/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.ios.vendored_libraries = "Pod/Classes/**/*.a"
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
